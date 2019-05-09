@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #0696FF;
+}
+#logo{
+    /*width.2048 height.1536*/
+    width: 200px;
+    height: 150px;
+}
+#soccer{
+    width: 100px;
+    height: 100px;
+    margin-left: -35px;
+}
+#soccerplayer{
+    width: 405px;
+    height: 405px;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header-flex{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 80px;
+    font-weight: lighter;
+    width: 150px;
+    color: #0696FF;
+    padding-left: 80px;
+}
+.title-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: block;
+    text-align: right;
+}
+.menu{
+    background: #0696FF;
+    padding: 10px 7px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+/*LOGIN*/
+.login-form{
+    width: 400px;
+    background:  rgba(143, 217, 142, 0.4);
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 250px;
+    border-radius: 10px;
+
+}
+.login-input{
+    width: 200px;
+    margin:10px 100px;
+    background: rgba(143, 217, 142, 0.5);
+    border: none;
+    height: 30px;
+    color: #5E9A5D;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+#login-submit{
+    width: 220px;
+    height: 40px;
+    background: #0696FF;
+    color: white;
+    margin:10px 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+
+/*REGISTRATIE*/
+
+.register-form{
+    width: 400px;
+    background:  rgba(143, 217, 142, 0.4);
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 190px;
+    border-radius: 10px;
+
+}
+.register-input{
+    width: 200px;
+    margin:10px 100px;
+    background: rgba(143, 217, 142, 0.5);
+    border: none;
+    height: 30px;
+    color: #5E9A5D;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+#register-submit{
+    width: 220px;
+    height: 40px;
+    background: #0696FF;
+    color: white;
+    margin:10px 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer{
+    background: #8FD98E;
+    position: fixed;
+    width: 100%;
+    color: #5E9A5D;
+}
